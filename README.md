@@ -37,8 +37,8 @@ The dataset (`assets/real_estate.csv`) contains real estate listings with the fo
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd 01-pandas
+   git clone https://github.com/4GeeksAcademy/gperdrizet-data-clean-up-pandas-for-beginners-project.git
+   cd gperdrizet-data-clean-up-pandas-for-beginners-project
    ```
 
 2. **Install dependencies**:
