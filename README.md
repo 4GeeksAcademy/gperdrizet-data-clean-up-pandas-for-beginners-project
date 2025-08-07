@@ -6,6 +6,7 @@ A comprehensive data science project focused on real estate market analysis usin
 
 ![Project Preview](assets/preview.png)
 
+
 ## Project Overview
 
 This project analyzes real estate data from **Fotocasa**, one of Spain's most popular real estate websites. The dataset contains thousands of house listings and provides hands-on experience with:
@@ -15,6 +16,83 @@ This project analyzes real estate data from **Fotocasa**, one of Spain's most po
 - Statistical analysis
 - Data visualization
 - Market analysis and insights
+
+
+## Getting Started
+
+### Option 1: GitHub Codespaces (Recommended)
+
+1. **Fork the Repository**
+   - Click the "Fork" button on the top right of the GitHub repository page
+   - 4Geeks students: set 4GeeksAcademy as the owner - 4Geeks pays for your codespace usage. All others, set yourself as the owner
+   - Give the fork a descriptive name. 4Geeks students: I recommend including your GitHub username to help in finding the fork if you loose the link
+   - Click "Create fork"
+   - 4Geeks students: bookmark or otherwise save the link to your fork
+
+2. **Create a GitHub Codespace**
+   - On your forked repository, click the "Code" button
+   - Select "Create codespace on main"
+   - If the "Create codespace on main" option is grayed out - go to your codespaces list from the three-bar menu at the upper left and delete an old codespace
+   - Wait for the environment to load (dependencies are pre-installed)
+
+3. **Start Working**
+   - Open `notebooks/assignment.ipynb` in the Jupyter interface
+   - Follow the step-by-step instructions in the notebook
+
+### Option 2: Local Development
+
+1. **Prerequisites**
+   - Git
+   - Python >= 3.10
+
+2. **Fork the repository**
+   - Click the "Fork" button on the top right of the GitHub repository page
+   - Optional: give the fork a new name and/or description
+   - Click "Create fork"
+
+3. **Clone the repository**
+   - From your fork of the repository, click the green "Code" button at the upper right
+   - From the "Local" tab, select HTTPS and copy the link
+   - Run the following commands on your machine, replacing `<LINK>` and `<REPO_NAME>`
+
+   ```bash
+   git clone <LINK>
+   cd <REPO_NAME>
+   ```
+
+4. **Set Up Environment**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+5. **Launch Jupyter & start the notebook**
+   ```bash
+   jupyter notebook notebooks/assignment.ipynb
+   ```
+
+
+## Project Structure
+
+```
+├── .devcontainer/        # Development container configuration
+├── assets/               # Files and resources directory
+│   └── preview.png       # Project preview image
+│
+├── data/                 # Data file directory
+│   └── real_estate.csv   # Real estate dataset
+│
+├── notebooks/            # Jupyter notebook directory
+│   ├── assignment.ipynb  # Assignment notebook
+│   └── solution.ipynb    # Solution notebook
+│
+├── .gitignore            # Files and directories listed here are not tracked by git
+├── project.ipynb         # Main Jupyter notebook with exercises
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
+```
 
 ## Dataset
 
@@ -27,48 +105,6 @@ The dataset (`assets/real_estate.csv`) contains real estate listings with the fo
 
 **Note**: This dataset was collected for academic purposes only. No commercial benefit was obtained from web scraping activities.
 
-## Getting Started
-
-### Local installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/4GeeksAcademy/gperdrizet-data-clean-up-pandas-for-beginners-project.git
-   cd gperdrizet-data-clean-up-pandas-for-beginners-project
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Open the project**:
-   ```bash
-   jupyter notebook project.ipynb
-   ```
-   
-   Or open `project.ipynb` in VS Code with the Jupyter extension.
-
-### Using Dev Container (Recommended)
-
-This project includes a dev container configuration for a consistent development environment:
-
-1. Open in VS Code
-2. Install the "Dev Containers" extension
-3. Press `Ctrl+Shift+P` and select "Dev Containers: Reopen in Container"
-4. The environment will be automatically configured with all dependencies
-
-## Project Structure
-
-```
-├── .devcontainer/        # Development container configuration
-├── assets/               # Data files and resources
-│   ├── preview.png       # Project preview image
-│   └── real_estate.csv   # Real estate dataset
-├── project.ipynb         # Main Jupyter notebook with exercises
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
-```
 
 ## Learning Objectives
 
@@ -85,7 +121,7 @@ This project includes a dev container configuration for a consistent development
 - Filtering and grouping data
 - Statistical analysis and visualization
 
-## Key Exercises
+### Key skills
 
 1. **Data Exploration**: Load and examine the real estate dataset
 2. **Extreme Value Analysis**: Find most/least expensive and largest/smallest properties
@@ -93,24 +129,6 @@ This project includes a dev container configuration for a consistent development
 4. **Data Quality Assessment**: Identify and handle null values
 5. **Market Analysis**: Calculate average prices by location
 6. **Data Visualization**: Create histograms and analyze price distributions
-
-## Key Findings
-
-Based on the analysis of the cleaned dataset:
-
-- **Dataset Size**: 5,367 properties across 38 unique locations
-- **Price Range**: Properties range from ~$165K to $8M USD
-- **Most Expensive**: Alcobendas - $8,000,000 USD
-- **Geographic Coverage**: Comprehensive coverage of Madrid metropolitan area
-- **Arroyomolinos Analysis**: 110 properties with average price of $298,780
-
-## Sample Visualizations
-
-The project includes price distribution analysis with:
-- Histogram visualizations
-- Statistical summaries (mean, median, standard deviation)
-- Market trend analysis
-- Data quality assessments
 
 ## Technologies Used
 
@@ -128,7 +146,3 @@ This is an educational project. Contributions for improving the analysis or addi
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
-
-## Legal Notice
-
-This project uses data obtained through web scraping for **academic purposes only**. The dataset was collected by Henry Navarro with no commercial intent. Please respect website terms of service and use data responsibly.
