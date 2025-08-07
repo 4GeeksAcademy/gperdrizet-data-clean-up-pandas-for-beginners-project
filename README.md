@@ -88,7 +88,7 @@ This project analyzes real estate data from **Fotocasa**, one of Spain's most po
 │   ├── assignment.ipynb  # Assignment notebook
 │   └── solution.ipynb    # Solution notebook
 │
-├── .gitignore            # Files and directories not tracked by git
+├── .gitignore            # Files/directories not tracked by git
 ├── project.ipynb         # Main Jupyter notebook with exercises
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
