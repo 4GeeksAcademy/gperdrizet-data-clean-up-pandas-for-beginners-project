@@ -29,13 +29,7 @@ The dataset (`assets/real_estate.csv`) contains real estate listings with the fo
 
 ## Getting Started
 
-### Prerequisites
-
-- Python 3.11+
-- Jupyter Notebook or VS Code with Jupyter extension
-- Required packages (see `requirements.txt`)
-
-### Installation
+### Local installation
 
 1. **Clone the repository**:
    ```bash
@@ -67,12 +61,12 @@ This project includes a dev container configuration for a consistent development
 ## Project Structure
 
 ```
-├── .devcontainer/          # Development container configuration
-├── assets/                 # Data files and resources
-│   ├── preview.png        # Project preview image
-│   └── real_estate.csv    # Real estate dataset
-├── project.ipynb          # Main Jupyter notebook with exercises
-├── requirements.txt       # Python dependencies
+├── .devcontainer/        # Development container configuration
+├── assets/               # Data files and resources
+│   ├── preview.png       # Project preview image
+│   └── real_estate.csv   # Real estate dataset
+├── project.ipynb         # Main Jupyter notebook with exercises
+├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
 ```
 
