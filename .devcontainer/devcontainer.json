@@ -8,9 +8,8 @@
 	  "vscode": {
 		"settings": {
 			"jupyter.kernels.excludePythonEnvironments": ["/usr/bin/python3"],
-			"remote.portsAttributes": {
-				"ipykernel_launcher": {"onAutoForward": "ignore"}
-			}
+			"remote.autoForwardPorts": false,
+			"remote.restoreForwardedPorts": false
 		},
 		"extensions": [
 		  "-dbaeumer.vscode-eslint",
@@ -20,13 +19,5 @@
 		]
 	  }
 	},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": ""
-
-	// Use mounts to persist data or share files with the host.
-	//"mounts": []
+	"postAttachCommand": "htop"
 }
