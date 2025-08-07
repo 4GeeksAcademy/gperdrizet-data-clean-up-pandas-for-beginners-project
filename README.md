@@ -1,5 +1,7 @@
 # Real Estate Data Analysis with Pandas
 
+[![Codespaces Prebuilds](https://github.com/4GeeksAcademy/gperdrizet-data-clean-up-pandas-for-beginners-project/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/4GeeksAcademy/gperdrizet-data-clean-up-pandas-for-beginners-project/actions/workflows/codespaces/create_codespaces_prebuilds)
+
 A comprehensive data science project focused on real estate market analysis using Python and Pandas. This project demonstrates essential data cleaning, exploration, and visualization techniques through practical exercises with real-world data.
 
 ![Project Preview](assets/preview.png)
