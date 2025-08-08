@@ -108,21 +108,6 @@ The dataset (`assets/real_estate.csv`) contains real estate listings with the fo
 
 ## Learning Objectives
 
-### Part 1: Basic Python Practices
-- Variable declaration and data types
-- Working with lists and dictionaries
-- Basic statistical calculations
-
-### Part 2: Pandas Data Analysis
-- Loading and exploring CSV data
-- Data cleaning and null value handling
-- Finding extremes (min/max values)
-- Counting unique values
-- Filtering and grouping data
-- Statistical analysis and visualization
-
-### Key skills
-
 1. **Data Exploration**: Load and examine the real estate dataset
 2. **Extreme Value Analysis**: Find most/least expensive and largest/smallest properties
 3. **Geographic Analysis**: Count unique populations and analyze regional data
