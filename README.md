@@ -78,8 +78,7 @@ This project analyzes real estate data from **Fotocasa**, one of Spain's most po
 
 ```
 ├── .devcontainer/        # Development container configuration
-├── assets/               # Files and resources directory
-│   └── preview.png       # Project preview image
+├── assets/               # Images and other files 
 │
 ├── data/                 # Data file directory
 │   └── real_estate.csv   # Real estate dataset
@@ -88,7 +87,7 @@ This project analyzes real estate data from **Fotocasa**, one of Spain's most po
 │   ├── assignment.ipynb  # Assignment notebook
 │   └── solution.ipynb    # Solution notebook
 │
-├── .gitignore            # Files and directories listed here are not tracked by git
+├── .gitignore            # Files/directories not tracked by git
 ├── project.ipynb         # Main Jupyter notebook with exercises
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
@@ -107,21 +106,6 @@ The dataset (`assets/real_estate.csv`) contains real estate listings with the fo
 
 
 ## Learning Objectives
-
-### Part 1: Basic Python Practices
-- Variable declaration and data types
-- Working with lists and dictionaries
-- Basic statistical calculations
-
-### Part 2: Pandas Data Analysis
-- Loading and exploring CSV data
-- Data cleaning and null value handling
-- Finding extremes (min/max values)
-- Counting unique values
-- Filtering and grouping data
-- Statistical analysis and visualization
-
-### Key skills
 
 1. **Data Exploration**: Load and examine the real estate dataset
 2. **Extreme Value Analysis**: Find most/least expensive and largest/smallest properties
