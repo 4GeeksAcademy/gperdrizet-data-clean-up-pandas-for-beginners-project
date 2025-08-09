@@ -78,8 +78,7 @@ This project analyzes real estate data from **Fotocasa**, one of Spain's most po
 
 ```
 ├── .devcontainer/        # Development container configuration
-├── assets/               # Files and resources directory
-│   └── preview.png       # Project preview image
+├── assets/               # Images and other files 
 │
 ├── data/                 # Data file directory
 │   └── real_estate.csv   # Real estate dataset
